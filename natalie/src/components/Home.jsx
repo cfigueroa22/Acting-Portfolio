@@ -8,7 +8,7 @@ const Home = () => {
         <img src={headshot} alt="Natalie Reyes" />
       </div>
       <div className="px-2 py-6">
-        <h1 className="text-2xl">About Me</h1>
+        <h1 className="text-2xl">ABOUT ME</h1>
         <div className="flex items-center justify-center mt-2">
           <hr className="w-full border-t border-lightGray" />
         </div>
@@ -23,12 +23,14 @@ const Home = () => {
         </p>
       </div>
       <div className="flex items-center justify-center py-6">
-        <button className="px-2 py-2 border-none bg-pink hover:bg-lightPink">
-          Contact Me
-        </button>
+        <a href="/contact">
+          <button className="px-2 py-2 border-none bg-pink hover:bg-lightPink">
+            Contact Me
+          </button>
+        </a>
       </div>
       <div className="px-2 py-6">
-        <h1 className="text-2xl">Social</h1>
+        <h1 className="text-2xl">SOCIAL</h1>
         <div className="flex items-center justify-center mt-2">
           <hr className="w-full border-t border-lightGray" />
         </div>

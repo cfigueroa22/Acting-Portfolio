@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="">
       <div className="sticky top-0">
         <div className="">
-          <p className="px-2 py-2 text-2xl">Natalie Reyes</p>
+          <p className="px-2 py-2 text-2xl">NATALIE REYES</p>
         </div>
         <div
           onClick={() => setOpen(!open)}
@@ -21,7 +21,7 @@ const Navbar = () => {
             open ? "left-0" : "left-[-1000px]"
           }`}
         >
-          <ul className="flex flex-col w-full text-white bg-lightBlack">
+          <ul className="flex flex-col w-full h-screen text-white bg-lightBlack">
             <div className="absolute right-0 px-2 py-2 text-3xl hover:cursor-pointer hover:text-pink">
               <ion-icon
                 onClick={() => setOpen(!open)}
