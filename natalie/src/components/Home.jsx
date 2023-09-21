@@ -8,14 +8,14 @@ const Home = () => {
         <img src={headshot} alt="Natalie Reyes" />
       </div>
       <div className="px-2 py-6">
-        <h1 className="text-2xl">ABOUT ME</h1>
+        <h1 className="text-2xl font-raleway">ABOUT ME</h1>
         <div className="flex items-center justify-center mt-2">
           <hr className="w-full border-t border-lightGray" />
         </div>
       </div>
       <div className="flex flex-col items-center">
-        <h1 className="pb-2 text-2xl">Welcome</h1>
-        <p className="px-4 text-center">
+        <h1 className="pb-2 text-2xl font-noto">Welcome</h1>
+        <p className="px-4 text-center font-noto">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis
           assumenda at enim ipsa fuga delectus accusantium, impedit quia.
           Maiores adipisci architecto quos iure quam quibusdam, ad aspernatur?
@@ -24,13 +24,13 @@ const Home = () => {
       </div>
       <div className="flex items-center justify-center py-6">
         <a href="/contact">
-          <button className="px-2 py-2 border-none bg-pink hover:bg-lightPink">
+          <button className="px-2 py-2 font-extrabold border-none text-md bg-pink hover:bg-lightPink font-noto">
             Contact Me
           </button>
         </a>
       </div>
       <div className="px-2 py-6">
-        <h1 className="text-2xl">SOCIAL</h1>
+        <h1 className="text-2xl font-raleway">SOCIAL</h1>
         <div className="flex items-center justify-center mt-2">
           <hr className="w-full border-t border-lightGray" />
         </div>

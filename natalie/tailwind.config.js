@@ -14,6 +14,11 @@ export default {
       lightPink: "#FFE5F1",
       lightGray: "#D8D9DA",
       gray: "#7D7C7C",
+      red: "#FE0000",
+    },
+    fontFamily: {
+      raleway: ["Raleway", "sans-serif"],
+      noto: ["Noto Serif JP", "serif"],
     },
     extend: {},
   },

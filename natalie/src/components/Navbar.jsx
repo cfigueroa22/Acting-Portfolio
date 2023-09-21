@@ -7,7 +7,11 @@ const Navbar = () => {
     <div className="">
       <div className="sticky top-0">
         <div className="">
-          <p className="px-2 py-2 text-2xl">NATALIE REYES</p>
+          <a href="/home">
+            <p className="px-2 py-2 text-2xl tracking-wider hover:cursor-pointer font-raleway">
+              NATALIE REYES
+            </p>
+          </a>
         </div>
         <div
           onClick={() => setOpen(!open)}
@@ -29,35 +33,35 @@ const Navbar = () => {
               ></ion-icon>
             </div>
             <Link
-              className="px-4 pt-16 pb-4 text-4xl hover:text-pink"
+              className="px-4 pt-16 pb-4 text-4xl font-thin tracking-wide hover:text-pink font-noto"
               to="/home"
               onClick={() => setOpen(!open)}
             >
               Home
             </Link>
             <Link
-              className="px-4 py-4 text-4xl hover:text-pink"
+              className="px-4 py-4 text-4xl font-thin tracking-wide hover:text-pink font-noto"
               to="/resume"
               onClick={() => setOpen(!open)}
             >
               Resume
             </Link>
             <Link
-              className="px-4 py-4 text-4xl hover:text-pink"
+              className="px-4 py-4 text-4xl font-thin tracking-wide hover:text-pink font-noto"
               to="/gallery"
               onClick={() => setOpen(!open)}
             >
               Gallery
             </Link>
             <Link
-              className="px-4 py-4 text-4xl hover:text-pink"
+              className="px-4 py-4 text-4xl font-thin tracking-wide hover:text-pink font-noto"
               to="/reels"
               onClick={() => setOpen(!open)}
             >
               Reels
             </Link>
             <Link
-              className="px-4 py-4 text-4xl hover:text-pink"
+              className="px-4 py-4 text-4xl font-thin tracking-wide hover:text-pink font-noto"
               to="/contact"
               onClick={() => setOpen(!open)}
             >

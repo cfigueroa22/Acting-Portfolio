@@ -1,15 +1,16 @@
-import React from "react";
-
 const Gallery = () => {
   return (
     <div>
+      {/* Page Title */}
       <div className="px-2 pt-10 pb-6">
-        <h1 className="text-2xl">PHOTO GALLERY</h1>
+        <h1 className="text-2xl font-raleway">PHOTO GALLERY</h1>
         <div className="flex items-center justify-center mt-2">
           <hr className="w-full border-t border-lightGray" />
         </div>
       </div>
-      <div>PHOTO GALLERY GOES HERE</div>
+      {/* Gallery */}
+      <div></div>
+      {/* Footer */}
       <div className="px-2">
         <div className="flex items-center justify-center mt-2">
           <hr className="w-full border-t border-lightGray" />
