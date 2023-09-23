@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import contactImg from "../assets/contact-img.jpg";
+import contactImg from "../assets/image2.jpg";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 

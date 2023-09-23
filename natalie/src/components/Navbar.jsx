@@ -4,7 +4,7 @@ import { Link, Outlet } from "react-router-dom";
 const Navbar = () => {
   let [open, setOpen] = useState(false);
   return (
-    <div className="">
+    <div className="z-50">
       <div className="sticky top-0">
         <div className="">
           <a href="/home">
